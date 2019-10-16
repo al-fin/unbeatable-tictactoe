@@ -1,0 +1,148 @@
+html,body {
+	margin: 0;
+}
+body {
+	background-color: #008EFF;
+	font-family: arial;
+	border: none;
+}
+
+.container {
+	text-align: center;
+}
+
+.container h1 {
+	color: #fff
+}
+.container .title {
+	display: block;
+	padding: 5px;
+	background-color: #006FC8;
+	color: #fff;
+	line-height: 15px;
+	margin-bottom: 15px;
+}
+.container .title h1 {
+	line-height: 0px;
+}
+.container .title span {
+	padding: 10px;
+	border-radius: 15px;
+	background-color: #005EA9;
+	display: inline-block;
+	margin: 0;
+}
+
+.board {
+	margin-top: 15px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	padding: 5px;
+	width: 262px;
+	background-color: #006FC8;
+	border-radius: 10px
+}
+
+.box {
+	background-color: #fff;
+	margin: 6px;
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+	font-weight: bold;
+	font-size: 40px;
+	border-radius: 5px;
+	color:#646464;
+	transition: 0.5s ease-out
+}
+
+.box-win {
+	background-color: #C1FFC9;
+	color:#26a267;
+}
+.box-lose {
+	background-color: #FFD3D3;
+	color:#D80000;
+}
+.selectPlayer .select {
+	display: inline-block;
+	padding: 25px;
+	background-color: #fff;
+	margin: 10px;
+	border-radius: 10px
+}
+.selectPlayer h1 {
+	font-size: 60px;
+	line-height: 0px
+}
+.selectPlayer .o h1, .box-o {
+	color: #00CE1E;
+}
+.selectPlayer .x h1, .box-x {
+	color: #DF0001;
+}
+
+.selectPlayer button {
+	border: none;
+	color:#fff;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 5px
+}
+.selectPlayer .o button {
+	background-color: #00CE1E;
+}
+.selectPlayer .x button {
+	background-color: #DF0001
+}
+
+.result {
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding: 25px;
+	border-radius: 15px;
+	transition: 0.5s ease-out;
+}
+.result h3 {
+	line-height: 0px
+}
+.result-win {
+	background-color: #E2FFE6;
+}
+.result-win h3 {
+	color:#26a267
+}
+.result-lose {
+	background-color: #FFD3D3;	
+}
+.result-lose h3 {
+	color:#D80000;
+}
+.result-draw {
+	background-color: #eaeaea
+}
+.result-draw h3 {
+	color:#9D9D9D
+}
+
+.result button {
+	border: none;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.result-win button {
+	background-color: #26a267;
+	color:#fff;
+}
+.result-lose button {
+	background-color: #DF0001;
+	color:#fff;
+}
+.result-draw button {
+	background-color: #aaa;
+	color:#fff;
+}
+
